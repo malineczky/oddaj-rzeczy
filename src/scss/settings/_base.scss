@@ -1,6 +1,24 @@
 @import './fonts';
 @import './colors';
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: $font-base;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: $color-font;
+}
+
+h2 {
+    font-size: 38px;
 }

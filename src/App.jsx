@@ -1,11 +1,7 @@
 import "./App.scss";
+import HomeHeader from "./components/HomeHeader";
 
 function App() {
-  return (
-    <>
-      <h1>halo</h1>
-    </>
-  );
+  return <HomeHeader />;
 }
-
 export default App;

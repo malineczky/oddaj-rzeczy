@@ -6,6 +6,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
   },
+  {
+    path: "/logowanie",
+    element: <Logowanie />,
+  },
 ]);
 
 export default router;
