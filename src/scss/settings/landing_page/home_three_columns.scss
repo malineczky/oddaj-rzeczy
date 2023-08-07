@@ -1,0 +1,47 @@
+@import '../colors';
+@import '../base';
+
+
+.counter {
+
+    background-image: url("src/assets/3-Columns-Background.png");
+
+    &__container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__box {
+
+        margin-top: 46px;
+        margin-bottom: 86px;
+        width: 334px;
+        height: 252px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+            font-size: calc(90px/16px*1rem);
+            color: $color-base;
+        }
+
+        &--title {
+            font-size: calc(18px/16px*1rem);
+            letter-spacing: -0.36px;
+        }
+
+        &--desc {
+            font-size: 1rem;
+            text-align: center;
+            letter-spacing: -0.32px;
+            line-height: 32px;
+            font-weight: 300;
+
+        }
+
+    }
+
+
+}
