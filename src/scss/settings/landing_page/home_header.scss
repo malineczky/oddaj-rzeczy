@@ -4,8 +4,13 @@
 
 .header {
     margin-top: 37px;
+    display: flex;
 
+    &__background {
+        width: 40%;
+        object-fit: cover;
 
+    }
 
     &__login {
 
@@ -74,8 +79,10 @@
 
         h2 {}
 
-        img {
+        &__decoration {
             margin: 25px 0 50px 0;
+            width: 50%;
+            align-self: center;
         }
 
         &__buttons {
@@ -94,7 +101,6 @@
             border: 1px solid $color-base;
             font-size: 2.25rem;
             font-weight: 100;
-
         }
     }
 }

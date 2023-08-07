@@ -1,9 +1,16 @@
 import { Link } from "react-router-dom";
+import image1 from "../assets/Decoration.svg";
+import image2 from "../assets/Home-Hero-Image.jpg";
 
 function HomeHeader() {
   return (
     <>
       <div className="header">
+        <img
+          src={image2}
+          alt="pudło z rzeczami"
+          className="header__background"
+        />
         <div className="header__content container">
           <div className="header__login">
             <Link to={`/logowanie`} className="header__login--button">
@@ -35,7 +42,11 @@ function HomeHeader() {
           <div className="opening">
             <div className="opening__content">
               <h2>Zacznij pomagać! Oddaj niechciane rzeczy w zaufane ręce</h2>
-              <img src="" alt="decoration" />
+              <img
+                src={image1}
+                alt="decoration"
+                className="opening__decoration"
+              />
               <div className="opening__buttons">
                 <Link to={`/logowanie`}>ODDAJ RZECZY</Link>
                 <Link to={`/logowanie`}>ZORGANIZUJ ZBIÓRKĘ</Link>
