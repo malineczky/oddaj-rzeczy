@@ -1,9 +1,8 @@
 @import '../colors';
 @import '../base';
-
+@import '../fonts';
 
 .counter {
-
     background-image: url("src/assets/3-Columns-Background.png");
 
     &__container {
@@ -12,7 +11,6 @@
     }
 
     &__box {
-
         margin-top: 46px;
         margin-bottom: 86px;
         width: 334px;
@@ -38,10 +36,6 @@
             letter-spacing: -0.32px;
             line-height: 32px;
             font-weight: 300;
-
         }
-
     }
-
-
 }

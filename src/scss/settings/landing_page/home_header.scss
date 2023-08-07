@@ -1,7 +1,6 @@
 @import '../colors';
 @import '../base';
 
-
 .header {
     margin-top: 37px;
     display: flex;
@@ -9,7 +8,6 @@
     &__background {
         width: 40%;
         object-fit: cover;
-
     }
 
     &__login {
@@ -22,9 +20,8 @@
         &--button {
             color: $color-font-grey;
             margin-left: 20px;
-            // // width: 90px;
+            // width: 90px;
             padding: 10px;
-
             height: 36px;
             display: flex;
             align-items: center;
@@ -33,9 +30,7 @@
             &:hover {
                 outline: 2px solid $color-important;
             }
-
         }
-
     }
 
     nav {
@@ -44,7 +39,6 @@
         font-size: 1.125rem;
 
         ul {
-
             display: flex;
 
             a {
@@ -53,12 +47,9 @@
 
                 &:hover {
                     outline: 0.75px solid $color-font;
-
                 }
-
             }
         }
-
     }
 
     .opening {
@@ -76,7 +67,6 @@
             margin-right: 6.25rem;
         }
 
-
         h2 {}
 
         &__decoration {
@@ -88,8 +78,6 @@
         &__buttons {
             display: flex;
             justify-content: space-around;
-
-
         }
 
         a {
