@@ -22,7 +22,6 @@ function HomeHeader() {
               <a href="#">Start</a>
             </li>
             <li className="nav__list--item">
-              {/* <a href="#">O co chodzi?</a> */}
               <ScrollLink to="steps" smooth={true} duration={500}>
                 O co chodzi?
               </ScrollLink>
