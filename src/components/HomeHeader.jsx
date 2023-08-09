@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import image1 from "../assets/Decoration.svg";
 import image2 from "../assets/Home-Hero-Image.jpg";
+import { Link as ScrollLink } from "react-scroll";
 
 function HomeHeader() {
   return (
@@ -21,7 +22,10 @@ function HomeHeader() {
               <a href="#">Start</a>
             </li>
             <li className="nav__list--item">
-              <a href="#">O co chodzi?</a>
+              {/* <a href="#">O co chodzi?</a> */}
+              <ScrollLink to="steps" smooth={true} duration={500}>
+                O co chodzi?
+              </ScrollLink>
             </li>
             <li className="nav__list--item">
               <a href="#">O nas</a>

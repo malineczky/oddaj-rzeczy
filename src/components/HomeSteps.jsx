@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function HomeSteps() {
   return (
-    <section className="steps">
+    <section className="steps" id="steps">
       <div className="steps__title">
         <h2>Wystarczą 4 proste kroki</h2>
         <img src={image1} alt="dekoracja" className="decoration__line" />
