@@ -27,7 +27,10 @@ function HomeHeader() {
               </ScrollLink>
             </li>
             <li className="nav__list--item">
-              <a href="#">O nas</a>
+              {/* <a href="#">O nas</a> */}
+              <ScrollLink to="about" smooth={true} duration={500}>
+                O nas
+              </ScrollLink>
             </li>
             <li className="nav__list--item">
               <a href="#">Fundacja i organizacje</a>
