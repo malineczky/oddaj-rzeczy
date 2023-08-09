@@ -1,4 +1,6 @@
 import image1 from "../assets/Decoration.svg";
+import React from "react";
+import { useState } from "react";
 
 function HomeWhoWeHelp() {
   return (
@@ -17,50 +19,26 @@ function HomeWhoWeHelp() {
             Lokalnym zbiórkom
           </button>
         </div>
-        <p>
-          W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi
-          współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i
-          czego potrzebują.
-        </p>
+        <p>tekst wyświetlany w zależności od naciśniętego buttona</p>
       </div>
       <div className="help__list">
         <div className="help__list--item">
           <div className="help__list--item--left">
-            <h3>Fundacja “Dbam o Zdrowie”</h3>
-            <p>
-              Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji
-              życiowej.
-            </p>
+            <h3>nazwa</h3>
+            <p>misja</p>
           </div>
           <div className="help__list--item--right">
-            <p>ubrania, jedzenie, sprzęt AGD, meble, zabawki</p>
-          </div>
-        </div>
-        <div className="help__list--item">
-          <div className="help__list--item--left">
-            <h3>Fundacja “Dla dzieci”</h3>
-            <p>Cel i misja: Pomoc dzieciom z ubogich rodzin.</p>
-          </div>
-          <div className="help__list--item--right">
-            <p>ubrania, meble, zabawki</p>
-          </div>
-        </div>
-        <div className="help__list--item">
-          <div className="help__list--item--left">
-            <h3>Fundacja “Bez domu”</h3>
-            <p>
-              Cel i misja: Pomoc dla osób nie posiadających miejsca
-              zamieszkania.
-            </p>
-          </div>
-          <div className="help__list--item--right">
-            <p>ubrania, jedzenie, ciepłe koce</p>
+            <p>przedmioty</p>
           </div>
         </div>
       </div>
       <div className="help__pagination">
-        <a href="#">1</a>
-        <a href="#">2</a>
+        <a href="#" className="help__pagination--number">
+          1
+        </a>
+        <a href="#" className="help__pagination--number">
+          2
+        </a>
       </div>
     </section>
   );

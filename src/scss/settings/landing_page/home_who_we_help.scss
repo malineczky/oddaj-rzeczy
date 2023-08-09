@@ -37,11 +37,9 @@
             height: 79px;
             align-items: center;
 
-
             &:hover {
                 outline: 2px solid $color-font;
             }
-
         }
     }
 
@@ -71,6 +69,14 @@
             &--right {
                 font-weight: 300;
             }
+        }
+    }
+
+    &__pagination {
+        display: flex;
+
+        &--number {
+            margin: 0 20px;
         }
     }
 }
