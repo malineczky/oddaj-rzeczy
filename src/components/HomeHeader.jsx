@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import image1 from "../assets/Decoration.svg";
 import image2 from "../assets/Home-Hero-Image.jpg";
-import { Link as ScrollLink } from "react-scroll";
 
 function HomeHeader() {
   return (
@@ -9,10 +9,10 @@ function HomeHeader() {
       <img src={image2} alt="pudło z rzeczami" className="header__background" />
       <div className="header__content container">
         <div className="header__login">
-          <Link to={`/logowanie`} className="header__login--button">
+          <Link to="/logowanie" className="header__login--button">
             Zaloguj się
           </Link>
-          <Link to={`/rejestracja`} className="header__login--button">
+          <Link to="/rejestracja" className="header__login--button">
             Załóż konto
           </Link>
         </div>
